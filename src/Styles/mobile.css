@@ -1,0 +1,62 @@
+@media (max-width:768px) {
+    .desktopdevicehidden {
+     display:block!important;
+ }	
+ 
+     .mobiledevicehidden {
+         display:none!important;
+     }
+     /* .paddingleftright {
+         padding:0px!important;
+     } */
+     .mtb {
+         margin-bottom:0px!important;
+         margin-top:0px!important;
+     }
+     
+     .bl {
+     border-top-left-radius:32px!important;
+     -webkit-border-top-left-radius:32px!important;
+     -moz-border-top-left-radius:32px!important;
+     -ms-border-top-left-radius:32px!important;
+     -o-ms-border-top-left-radius:32px!important;
+     border-bottom-left-radius:0px!important;
+     -webkit-border-bottom-left-radius:0px!important;
+     -moz-border-bottom-left-radius:0px!important;
+     -ms-border-bottom-left-radius:0px!important;
+     -o-ms-border-bottom-left-radius:0px!important;
+     border-top-right-radius:32px!important;
+     -webkit-border-top-right-radius:32px!important;
+     -moz-border-top-right-radius:32px!important;
+     -ms-border-top-right-radius:32px!important;
+     -o-ms-border-top-right-radius:32px!important;
+ }
+ .md-15 {
+     padding-right:15px!important;
+     padding-bottom:30px!important;
+ }
+ .formmarginr {
+     margin-top:25px!important;
+ }
+ .mt-5 {
+         margin-top: 2rem!important
+ }
+ .halper25 {
+         margin-top: 10%!important;
+     margin-bottom: 15%!important;
+ }
+ .whitebg{
+ 
+ }
+ .welcome {
+     font-size:20px!important;
+ }
+ .registertext{
+     font-size:20px!important;
+ }
+ .bodybg {
+     background-size:unset!important;
+ }
+ 
+ }
+ 

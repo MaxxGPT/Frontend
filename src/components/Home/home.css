@@ -1,0 +1,721 @@
+.home__HeaderContainer {
+    background-image: url("../../assets/images/home-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.home__getStarted-primary {
+    min-width: 160px;
+    min-height: 25px;
+    margin-top: 10px;
+    background: #faaf00;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    border: 0;
+}
+
+.home__getStarted-primary:focus {
+    outline: none;
+}
+
+/* *HEADER  LEFT SIDE  */
+.home__leftSideContainer {
+    margin: 15%;
+}
+
+.header__chavron_down {
+    display: block;
+    margin: auto;
+}
+
+.home__headerHeroTextTitle {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    color: #ffffff;
+}
+.home__headerHeroTextSpan {
+    color: #2bfaa2;
+}
+
+.home__headerHeroTextDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 89.94%;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+/* * SECTION MACHINE LEARNING */
+
+.section__machineLearning {
+    margin-top: 70px;
+}
+
+.section__machineLearning > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+}
+
+.section__machineLearning > h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #8c98a4;
+}
+
+.machine-learning__cardContainer {
+    max-width: 320px;
+    min-height: 319px;
+    padding: 0px 40px;
+    background: #ffffff;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.machineLearning__innerContainer {
+    position: relative;
+    margin: 60px 0;
+}
+
+.machineLearning__dotsTopLeft {
+    position: absolute;
+    right: 200px;
+    z-index: -20;
+}
+
+.machineLearning__dotsBottomRight {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    z-index: -20;
+}
+
+.machineLearning__ovalBottomRight {
+    position: absolute;
+    bottom: -120px;
+    left: 400px;
+    z-index: -20;
+}
+
+.machine-learning__-fluid {
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.machine-learning__cardTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.machine-learning__cardDescription {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #8c98a4;
+}
+
+/* * SECTION DEVELOPER FIRST */
+
+.section__developer_first {
+    background-image: url("../../assets/images/developer-first-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    border-radius: 145px 0px 0px 0px;
+}
+
+.section__developer_first_oval {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 15%;
+    transform: rotate(55deg);
+    z-index: -20;
+}
+
+.section__developer_first_heroBoxContainer {
+    max-width: 50%;
+    margin: auto;
+    z-index: 9999;
+}
+
+.section__developer_first > * h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 66px;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.section__developer_first > * p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.developer_first_left-fluid {
+    width: 400px;
+}
+
+/* * SECTION HOW WE USE */
+
+.home__how_we_use_title_container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.howWeWork__ovalTopCenter {
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    z-index: -20;
+}
+.home__how_we_use_title_container h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    margin: 70px 0;
+}
+
+.home__howWeWork_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.home__howWeWork_description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+}
+
+/* * SECTION IMPROVING CONSTANTLY */
+
+.section__improving {
+    margin: 70px 0;
+}
+
+.home__improving_textContainer {
+    margin-top: 50px;
+    max-width: 40%;
+    position: relative;
+}
+
+.home__improving__dots_right_bottom {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    z-index: -20;
+}
+
+.home__improving_textContainer h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 66px;
+    color: #000000;
+}
+
+.section__improving p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    margin: 40px 0;
+}
+
+.section__improving_readMore-primary {
+    background: #03004d;
+    min-width: 200px;
+    min-height: 60px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: #ffffff;
+    border: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    align-items: center;
+}
+
+.section__improving_readMore-primary:focus {
+    outline: none;
+}
+
+/* * SECTION KIND API */
+
+.section__kind_api {
+    margin: 70px 0;
+    position: relative;
+}
+
+.home__kind_api_dots_left_bottom {
+    position: absolute;
+    left: -170px;
+    bottom: 0px;
+    z-index: -20;
+}
+
+.home__kind_api_textContainer {
+    margin-top: 50px;
+    max-width: 50%;
+    position: relative;
+}
+
+.home__kind_api_textContainer h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 66px;
+    color: #000000;
+}
+
+.section__kind_api_viewPricing {
+    background: #03004d;
+    min-width: 200px;
+    min-height: 60px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 0;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    align-items: center;
+}
+
+.section__kind_api_viewPricing:focus {
+    outline: none;
+}
+
+.section__kind_api p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    margin: 20px 0;
+}
+
+/* * SECTION CREATE AN ACCOUNT AND GET STARTED */
+
+.section__create_account {
+    margin-top: 40px;
+}
+
+.home__create_account_container {
+    background: rgba(61, 52, 210, 0.04);
+    padding-bottom: 80px;
+}
+
+.home__create_account_container h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 65px;
+    /* or 125% */
+
+    letter-spacing: 0.288889px;
+
+    color: #000000;
+}
+
+.section__create_account_getAQuote {
+    background: #03004d;
+    min-width: 180px;
+    min-height: 60px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    align-items: center;
+    border: 0;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.section__create_account_getAQuote:focus {
+    outline: none;
+}
+
+/* ! MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+    .machine-learning__cardDescription {
+        font-size: 13px;
+    }
+    .section__create_account_getAQuote {
+        margin-top: 30px;
+    }
+    .machineLearning__dotsBottomRight {
+        left: 130px;
+    }
+
+    .home__headerHeroTextTitle {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .home__leftSideContainer {
+        margin: 13%;
+    }
+    .home__headerHeroTextDescription {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 100%;
+    }
+    .section__create_account_getAQuote {
+        min-width: 180px;
+        min-height: 60px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home__headerHeroTextTitle {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .home__leftSideContainer {
+        margin: 10%;
+    }
+    .home__headerHeroTextDescription {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 100%;
+    }
+    .home__improving__dots_right_bottom {
+        position: absolute;
+        right: 0;
+        bottom: 180px;
+        z-index: -20;
+    }
+
+    .home__kind_api_dots_left_bottom {
+        position: absolute;
+        left: -170px;
+        bottom: 200px;
+        z-index: -20;
+    }
+
+    .section__kind_api p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .home__kind_api_textContainer h1 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home__headerHeroTextTitle {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .home__leftSideContainer {
+        margin: 10%;
+    }
+    .home__headerHeroTextDescription {
+        font-weight: 450;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .home__HeaderContainer {
+        background-image: url("../../assets/images/Hero bg-mobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0px 0px 0px 100px;
+        min-height: 500px;
+    }
+    .home__getStarted-primary {
+        min-width: 160px;
+        min-height: 25px;
+        margin-top: 50px;
+    }
+    .header__chavron_down {
+        margin-top: 20px;
+    }
+
+    /* * SECTION MACHINE LEARNING MOBILE */
+
+    .section__machineLearning {
+        margin-top: 70px;
+    }
+
+    .section__machineLearning > h1 {
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .section__machineLearning > h3 {
+        display: none;
+    }
+
+    .machineLearning__dotsTopLeft {
+        display: none;
+    }
+
+    .machineLearning__dotsBottomRight {
+        display: none;
+    }
+
+    .machine-learning__cardContainer {
+        margin: 20px auto;
+        max-width: 272px;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    }
+
+    .machine-learning__cardTitle {
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .machine-learning__cardDescription {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    /* * DEVELOPER FIRST MOBILE */
+
+    .section__developer_first {
+        border-radius: 0;
+        padding: 0 30px;
+        padding-bottom: 40px;
+    }
+
+    .section__developer_first_oval {
+        display: none;
+    }
+
+    .section__developer_first_heroBoxContainer {
+        max-width: 100%;
+    }
+
+    .section__developer_first > * h1 {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: left;
+    }
+
+    .section__developer_first > * p {
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    /* * SECTION HOW WE USE MOBILE */
+
+    .home__how_we_use_title_container {
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .howWeWork__ovalTopCenter {
+        display: none;
+    }
+    .home__how_we_use_title_container h1 {
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .home__howWeWork_title {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .home__howWeWork_description {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* * SECTION IMPROVING CONSTANTLY  MOBILE */
+
+    .section__improving {
+        margin: 70px 0;
+    }
+
+    .home__improving_textContainer {
+        margin-top: 50px;
+        max-width: 40%;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .home__improving_textContainer h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .home__improving__xs__text {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 20px;
+    }
+
+    .section__improving p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .section__improving_readMore-primary {
+        background: #03004d;
+        min-width: 120px;
+        min-height: 40px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    /* * SECTION KIND API  MOBILE */
+
+    .section__kind_api {
+        margin: 70px 0;
+        position: relative;
+    }
+
+    .home__kind_api_dots_left_bottom {
+        position: absolute;
+        left: -170px;
+        bottom: 0px;
+        z-index: 1;
+    }
+
+    .home__kind_api_textContainer {
+        margin-top: 50px;
+        max-width: 50%;
+        position: relative;
+    }
+
+    .home__kind_api_textContainer h1 {
+        font-size: 28px;
+        line-height: 35px;
+        margin-left: 20px;
+    }
+
+    .section__kind_api_viewPricing {
+        min-width: 160px;
+        min-height: 40px;
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 28px;
+    }
+
+    .section__kind_api_howItWorks {
+        min-width: 160px;
+        min-height: 40px;
+        margin-left: 30px;
+        border: 2px solid #03004d;
+        border-radius: 6px;
+        font-size: 14px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home__improving__xs__text {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 20px;
+    }
+
+    .section__kind_api p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 20px;
+    }
+
+    /* * SECTION CREATE AN ACCOUNT AND GET STARTED MOBILE */
+
+    .home__create_account_container h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .section__create_account_getAQuote {
+        min-width: 200px;
+        font-weight: normal;
+        min-height: 60px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section__kind_api_viewPricing {
+        min-width: 130px;
+        min-height: 30px;
+        margin-left: 10px;
+        font-size: 13px;
+        border-radius: 6px;
+    }
+
+    .section__kind_api_howItWorks {
+        min-width: 130px;
+        min-height: 30px;
+        margin-left: 10px;
+        border: 2px solid #03004d;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+}

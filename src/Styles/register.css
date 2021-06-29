@@ -1,0 +1,343 @@
+@media all and (min-width: 480px) {
+    .Register {
+        padding: 60px 0;
+    }
+
+    .Register form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.auth__backToHome {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.auth__backToHome > button {
+    border: 0;
+    background: transparent;
+}
+
+.auth__backToHome > button:focus-visible,
+.auth__backToHome > button:focus {
+    border: none;
+    outline: none;
+}
+
+.auth__backToHome button span {
+    font-size: 14px;
+}
+
+.login .forgot > a {
+    color: #7f85a2;
+}
+
+.login .login-bg {
+    background: linear-gradient(-50deg, #03004d, #3563eb);
+    display: flex;
+    align-items: center;
+}
+
+.login .login-bg img.login-img {
+    width: 100%;
+}
+.info-div {
+    min-height: 600px;
+}
+
+.login .login-h1 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 30px !important;
+}
+.check-form {
+    margin-bottom: 8px;
+}
+.input-form-group.check-form.form-group label {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-weight: 600;
+}
+.check-form label {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: relative;
+}
+.check-form label a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: #151515;
+}
+
+.login-btn {
+    margin-top: 20px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #f0f0f3 !important;
+    background-color: #f0f0f3 !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: none !important;
+    content: "" !important;
+    position: absolute !important;
+    top: 7.5px !important;
+    left: -20.5px;
+    width: 10px;
+    height: 6px;
+    background: none;
+    border: 2px solid;
+    border-color: #ff000000 #0000ff00 #62ca76 #62ca76;
+    transform: rotate(-40deg);
+}
+.login .i-label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.login .input-form-group {
+    position: relative;
+}
+
+.login .input-icon {
+    position: absolute;
+    bottom: 9px;
+    right: 15px;
+}
+
+.login .input-icon img {
+    width: auto;
+    height: 18px;
+}
+
+.login .input-form-group.form-group input {
+    color: #7f85a2;
+    border: 2px solid rgba(143, 146, 161, 0.2);
+}
+
+.login .input-form-group.form-group input::placeholder {
+    color: #7f85a2;
+}
+
+.login .forgot a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.login button.login-btn:hover {
+    color: black;
+}
+
+.login .register-btn {
+    border: 2px solid rgba(143, 146, 161, 0.2);
+    font-size: 16px;
+    padding: 8px 8px 10px;
+}
+
+.login .register-btn:hover {
+    background: rgba(143, 146, 161, 0.2) !important;
+    color: #6c757d !important;
+    border: 2px solid #e9e9ec !important;
+}
+
+.login .social-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.login .social-div a:not(.sign-in-with) {
+    background: #ffffff;
+    border: 1px solid #ececf2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 7px 12px;
+    margin: 5px;
+    color: #8181a5;
+    text-decoration: none;
+}
+
+.login .social-div a.sign-in-with {
+    background: #ffffff;
+    padding: 7px 12px;
+    margin: 5px;
+    color: #8181a5;
+    text-decoration: none;
+}
+
+.login .login-sm-bg {
+    display: none;
+}
+
+.login .border-sm-div {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .login-h1 {
+        margin-top: 30px !important;
+    }
+
+    .info-div {
+        padding: 30px !important;
+    }
+
+    .info-div form {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info-div {
+        min-height: 400px;
+    }
+    .login .login-bg {
+        display: none !important;
+    }
+
+    .login .login-sm-bg {
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    img.login-img {
+        width: 100%;
+    }
+
+    .asatera-logo {
+        display: none;
+    }
+
+    img.logo-sm {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+        height: 100px;
+    }
+
+    .info-div {
+        padding: 30px !important;
+        padding-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .form-div-row {
+        overflow: auto !important;
+        border-radius: 0 !important;
+    }
+
+    .border-sm-div {
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        background: white;
+        left: 0;
+        z-index: 9999;
+        top: -25px;
+        border-radius: 30px 30px 0 0;
+    }
+
+    .login {
+        margin: 0 !important;
+    }
+
+    .info-div {
+        border-radius: 30px 30px 0 0 !important;
+    }
+}
+
+.rounded-big-l {
+    border-radius: 35px 0px 0px 35px;
+    -moz-border-radius: 35px 0px 0px 35px;
+    -webkit-border-radius: 35px 0px 0px 35px;
+}
+
+.rounded-big {
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+
+.rounded-big-r {
+    border-radius: 0px 35px 35px 0px;
+    -moz-border-radius: 0px 35px 35px 0px;
+    -webkit-border-radius: 0px 35px 35px 0px;
+}
+
+.form-label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+input {
+    border: 2px solid rgba(143, 146, 161, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    color: #8181a5;
+}
+
+.bg-blue {
+    background: linear-gradient(198.52deg, #03004d -30.41%, #3563eb 109.49%);
+}
+
+ul {
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

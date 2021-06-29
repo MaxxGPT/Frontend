@@ -1,0 +1,54 @@
+.PricingPlanHeaderContainer {
+    background-image: url("../../assets/images/home-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.pricingPlanMoreQuestionBackgroundImage {
+    background: #03004d;
+    border-radius: 50px 0px 0px 0px;
+    height: 100vh;
+}
+
+.pricingPlanMoreQuestionImageBg {
+    background: #03004d;
+    min-height: 900px;
+    width: 75%;
+    margin-left: 25%;
+    border-radius: 50px 0px 0px 0px;
+    position: relative;
+}
+
+/* .pricingPlanWeHelpedOvalSection {
+    background-image: url("../../assets//images/Wave.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+@media screen and (max-width: 1270px) {
+    .pricingPlanMoreQuestionImageBg {
+        min-height: 700px;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .PricingPlanHeaderContainer {
+        min-height: 600px;
+    }
+    .pricingPlanMoreQuestionBackgroundImage {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .pricingPlanMoreQuestionImageBg {
+        min-height: 700px;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0px;
+    }
+}

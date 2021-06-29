@@ -1,0 +1,348 @@
+.switch {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 34px;
+    margin: auto;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+input:checked + .slider {
+    background-color: #1b4e7b;
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input.active + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #01C48D;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.header-bg-img {
+    background: url(/assets/home-bg.png);
+    height: 700px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+div#basic-navbar-nav {
+    z-index: 9999;
+}
+h1.header-heading {
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+p.header-sub-heading {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+.price-div-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+p.price-t {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+.price-item {
+    margin: 0 10px;
+}
+.price-card {
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+    border: none;
+}
+.price-card h4.card-title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.price-card h4.card-title span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #999999;
+}
+.price-card h4.card-title2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.color-1{
+    color: #01C48D;
+}
+.color-2{
+    color: #3D34D2;
+}
+.price-card  p.card-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #999999;
+}
+ul.feature-ul li {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+ul.feature-ul li:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background: #36B37E;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+ul.feature-ul li:after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 6px;
+    left: 5px;
+    border-width: 2px;
+    top: 40%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-color: #ff000000 transparent #01C48D #01C48D;
+    border-style: solid;
+}
+.price-card-btn {
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #03004D;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 3px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price-card-btn:hover {
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #03004D;
+    color: #fff;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 3px solid #03004D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img.oval-over-img {
+    position: absolute;
+    top: 311px;
+    left: 23%;
+}
+.section-top{
+    padding-top: 880px;
+}
+h1.plan-heading {
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.plan-div h4.card-title2 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.plan-div p.card-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #999;
+}
+.plan-div {
+    border: none;
+}
+img.plan-icon-img {
+    width: 100%;
+    height: auto;
+    max-height: initial;
+}
+button.plan-btn.btn {
+    background: #fdde69;
+    border-radius: 12px;
+    border: 0;
+    color: #1e1f20;
+    display: block;
+    margin: auto;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 0 25px;
+}
+.faq.card {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px !important;
+    margin-bottom: 30px;
+    border: none !important;
+}
+.faq.card  .card-header {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: black !important;
+    background: no-repeat;
+    border: none;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.faq.card  .card-header button{
+    font-family: Roboto;
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: black !important;
+    background: no-repeat;
+    border: none;
+    border-radius: 12px;
+}
+.faq.card .card-body {
+    padding: 0px 30px 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #999;
+}
+
+img.oval-half {
+    position: absolute;
+    bottom: 0;
+    right: -105px;
+}
+img.dot {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    top: -31px;
+    left: 0;
+}
+img.dot-2 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 42%;
+    bottom: 0;
+}

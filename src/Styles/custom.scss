@@ -1,0 +1,52 @@
+/***
+ * Buttons
+***/
+button {
+    font-family: Roboto;
+    height: 48px;
+    font-size: 1.25rem;
+  }
+a.btn {
+    border-radius: 12px;
+}
+
+.btn-primary {
+	background: #fdde69;
+	border-radius: 12px;
+	border: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #1e1f20;
+  }
+  .btn-primary:hover {
+	background: #e8cb60;
+  }
+
+/***
+ * Headers
+***/
+h1 {
+	font-family: Roboto;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0px;
+	text-align: left;
+  }
+
+h3 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+    color : #7F85A2
+  }
