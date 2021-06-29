@@ -8,12 +8,16 @@ export const ProfileUser = () => {
   const [userData, setUserData] = useState({});
 
   useEffect(() => {
-    request('/api/users/me', {}).then((result) => {
-      setUserData({
-        name: result.data.name,
-        email: result.data.email
-      });
-    });
+    request('http://localhost:4000/dev/users/me', {
+			headers:{
+				'Authorization': 'Bearer '+localStorage.token
+			}
+		})
+		.then(
+			(result) => {
+				setUserData(result.data);
+			}
+		);
   }, []);
 
   const handleChange = (event) => {
@@ -25,8 +29,11 @@ export const ProfileUser = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const data = JSON.stringify(userData);
-    const result = request("/api/users", {
+    const data = JSON.stringify({
+      email: userData.email,
+      name: userData.name,
+    });
+    const result = request("http://localhost:4000/dev/users/"+userData._id, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: data

@@ -8,6 +8,11 @@ import {ToastContainer} from "react-toastify";
 
 export const RegisterComplete = () => {
 
+    const goHome = (e) =>{
+        e.preventDefault();
+        window.location.href = "/";
+    }
+
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
       {isAuth() ? <Redirect to="/" /> : null}
@@ -30,7 +35,7 @@ export const RegisterComplete = () => {
                         your email id by clicking on the link sent
                         to your email.</h1>
 
-                    <Form className="mt-5 r-success" autocomplete="false">
+                    <Form className="mt-5 r-success" autocomplete="false" onSubmit={ goHome }>
 
                         <Button variant="primary" type="submit" size="lg" block className="login-btn">
                             Sounds Great !

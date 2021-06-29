@@ -32,6 +32,7 @@ export const Login = () => {
             if (result.error) {
                 toast.error("Email or password incorrect");
             } else {
+                localStorage.data = result.data.data;
                 localStorage.token = result.data.token;
                 window.location.href = "/dashboard";
             }

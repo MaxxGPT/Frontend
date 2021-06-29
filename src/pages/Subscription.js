@@ -14,16 +14,20 @@ export const Subscription = () => {
     }, []);
 
     const getProfile = () => {
-        request('/api/users/me', {})
-            .then(
-                (result) => {
-                    setUserData(result.data);
-                }
-            );
+        request('http://localhost:4000/dev/users/me', {
+			headers:{
+				'Authorization': 'Bearer '+localStorage.token
+			}
+		})
+		.then(
+			(result) => {
+				setUserData(result.data);				
+			}
+		);
     }
 
     const getPlans = () => {
-        request('/api/subscriptions', {})
+        request('http://localhost:4000/dev/subscriptions', {})
             .then(
                 (result) => {
                     if (result.data) {

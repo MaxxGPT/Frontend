@@ -38,21 +38,26 @@ export const Register = () => {
 
     if (userData.name && userData.email && userData.password) {
       if (userData.terms) {
-        if (userData.password === userData.password2) {
-          axios
-            .post(`http://localhost:4000/dev/users/signin`, userData)
-            .then((res) => {
-              redirectToCompleted();
-            })
-            .catch((err) => {
-              if (err.request.status === 400) {
-                toast.error("Something went wrong");
-              } else if (err.request.status === 405) {
-                toast.warning("Email is already registered");
-              }
-            });
-        } else {
-          toast.error("Passwords do not match");
+        let regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+        if( regex.test(userData.password) ){
+          if (userData.password === userData.password2) {
+            axios
+              .post(`http://localhost:4000/dev/users/signin`, userData)
+              .then((res) => {
+                redirectToCompleted();
+              })
+              .catch((err) => {
+                if (err.request.status === 400) {
+                  toast.error("Something went wrong");
+                } else if (err.request.status === 405) {
+                  toast.warning("Email is already registered");
+                }
+              });
+          } else {
+            toast.error("Passwords do not match");
+          }
+        }else{
+          toast.error("The password must be a minimum of 8 characters, containing at least: one uppercarse letter, one lowercase letter and a number");
         }
       } else {
         toast.error("You must agree to the terms and conditions");
