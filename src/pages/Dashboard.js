@@ -54,13 +54,16 @@ export const Dashboard = () => {
 	const deleteAccount = () => {
 		const response = window.confirm("Are you sure to delete your account?");
 		if (response === true) {
-			request('/api/users', {
-				method: 'DELETE'
+			request('http://localhost:4000/dev/users/'+userData._id, {
+				method: 'DELETE',
+				headers:{
+					'Authorization': 'Bearer '+localStorage.token
+				}
 			}).then((result) => {
 				if (result.error) {
 					toast.error('There was an error removing the selected user. Please try again.');
 				} else {
-					redirectToLogin()
+					redirectToLogin();
 				}
 			});
 		}
@@ -69,7 +72,10 @@ export const Dashboard = () => {
 	const regenerateAPI = () => {
 		const response = window.confirm("Are you sure to generate a new API key?");
 		if (response === true) {
-			request('/api/users/generateApi', {
+			request('http://localhost:4000/dev/users/key', {
+				headers:{
+					'Authorization': 'Bearer '+localStorage.token
+				}
 			}).then((result) => {
 				if (result.error) {
 					toast.error('There was an error removing the selected user. Please try again.');
