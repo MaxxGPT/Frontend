@@ -47,8 +47,8 @@ export const Dashboard = () => {
 
 
 	const redirectToLogin = () => {
-
-		window.location.href = '/api/auth/logout';
+		delete localStorage.token;
+		window.location.href = '/';
 	}
 
 	const deleteAccount = () => {

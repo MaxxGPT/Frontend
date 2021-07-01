@@ -35,7 +35,10 @@ export const ProfileUser = () => {
     });
     const result = request("http://localhost:4000/dev/users/"+userData._id, {
       method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer '+localStorage.token
+      },
       body: data
     });
     result.then((result) => {
