@@ -16,7 +16,7 @@ export const Terms = () => (
                     <div class="article-container">
                         <article id="content">
                             <header id="pagmt">
-                                <h1> TERMS OF USE </h1>
+                                <h1> Terms of Use </h1>
                                 <p> Last updated May 05, 2020</p>
                             </header>
                             <br />

@@ -37,6 +37,10 @@ nav.astra-nav .nav-item a.sign-in.nav-link {
     color: black !important;
     margin-left: 20px;
 }
+nav.astra-nav .nav-item a.sign-in.nav-link.blue{
+  background:#03004D;
+  color:white!important;
+}
 .nav-over {
     position: absolute;
     top: 0;
@@ -117,8 +121,13 @@ img.logo-img.sm-show {
 
 export const NavigationBar = () => {
   const [isLogin, setLogin] = useState(false);
+  const [isHome, setIsHome] = useState(false);
 
   useEffect(() => {
+    let url = window.location.pathname;
+    if(url == '/'){
+      setIsHome(true);
+    }
     request("/api/users/me", { noRedirect: true }).then((result) => {
       if (result.data) {
         setLogin(true);
@@ -158,7 +167,7 @@ export const NavigationBar = () => {
             </Nav.Item>
             {!isLogin && (
               <Nav.Item>
-                <Nav.Link href="/login">Login</Nav.Link>
+                <Nav.Link href="/register">Sign Up</Nav.Link>
               </Nav.Item>
             )}
 
@@ -170,7 +179,7 @@ export const NavigationBar = () => {
 
             {!isLogin && (
               <Nav.Item>
-                <Nav.Link href="/register" className="sign-in">Get API Key</Nav.Link>
+                <Nav.Link href="/login" className={isHome ? "sign-in" : "sign-in blue"}>Sign In</Nav.Link>
               </Nav.Item>
             )}
 

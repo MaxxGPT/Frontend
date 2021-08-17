@@ -155,19 +155,19 @@ const Header = props => {
                                     <Typography className={classes.pricingPlanMenuItemTitle}>Developer</Typography>
                                 </ButtonBase>
                                 <ButtonBase
-                                    onClick={() => isLogin ? history.push("/dashboard") : history.push("/login")}
+                                    onClick={() => isLogin ? history.push("/dashboard") : history.push("/register")}
                                     style={isLogin ? {padding:"0px 15px"}: {padding:"0px 0px"}}
                                     className={`${classes.pricingPlanMenuItem} ${isLogin && classes.pricingPlanSignUpButton}`} 
                                     >
                                         
-                                    <Typography className={isLogin ? classes.pricingPlanSignUpButtonTitle : classes.pricePlanMenuItemTitle}>{isLogin ? "test@asatera.com" : "Login"}</Typography>
+                                    <Typography className={isLogin ? classes.pricingPlanSignUpButtonTitle : classes.pricePlanMenuItemTitle}>{isLogin ? "test@asatera.com" : "Sign Up"}</Typography>
                                 </ButtonBase>
                                 {!isLogin &&
                                     <ButtonBase
-                                        onClick={() => history.push("/register")}
+                                        onClick={() => history.push("/login")}
                                         className={`${classes.pricingPlanMenuItem} ${classes.pricingPlanSignUpButton}`}
                                         style= {{ padding : "0px 15px"}}>
-                                        <Typography className={classes.pricingPlanSignUpButtonTitle}>Get API Key</Typography>
+                                        <Typography className={classes.pricingPlanSignUpButtonTitle}>Sign In</Typography>
                                     </ButtonBase>
                                 }
                             </Grid>

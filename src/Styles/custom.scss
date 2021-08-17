@@ -2,7 +2,6 @@
  * Buttons
 ***/
 button {
-    font-family: Roboto;
     height: 48px;
     font-size: 1.25rem;
   }
@@ -14,7 +13,6 @@ a.btn {
 	background: #fdde69;
 	border-radius: 12px;
 	border: 0;
-	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -30,7 +28,6 @@ a.btn {
  * Headers
 ***/
 h1 {
-	font-family: Roboto;
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 700;
@@ -40,7 +37,6 @@ h1 {
   }
 
 h3 {
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 450;
@@ -49,4 +45,8 @@ h3 {
     text-align: left;
     margin-bottom: 30px;
     color : #7F85A2
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, ul, ol, a{
+    font-family: 'CircularStd' !important;
   }

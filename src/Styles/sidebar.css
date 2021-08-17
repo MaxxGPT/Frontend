@@ -5,8 +5,22 @@ nav ul {
   overflow: hidden;
 }
 
+#dropdown-basic-menu{
+  background:white;
+  width:100%;
+  border:1px solid black;
+}
+
 body#terms-reference {
   background: none;
+}
+
+.dropdown-menu{
+  background: #E7E6EA;
+}
+
+.dropdown-menu a:hover{
+  background:white;
 }
 
 .sidebar-container{

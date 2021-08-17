@@ -16,7 +16,8 @@ export const RegisterComplete = () => {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
       {isAuth() ? <Redirect to="/" /> : null}
-        <Container className="mt-5 mb-5 login">
+      <div className="login">
+        <Container className="mt-5 mb-5 login-child">
             <ToastContainer />
             <Row className="justify-content-md-center rounded-big shadow overflow-hidden form-div-row">
                 <Col className="col-sm-12 col-12 col-md-6 login-sm-bg">
@@ -51,6 +52,7 @@ export const RegisterComplete = () => {
                 </Col>
             </Row>
         </Container>
+      </div>
     </div>
   );
 };

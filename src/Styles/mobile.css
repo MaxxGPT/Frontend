@@ -1,7 +1,7 @@
 @media (max-width:768px) {
     .desktopdevicehidden {
      display:block!important;
- }	
+     }	
  
      .mobiledevicehidden {
          display:none!important;
@@ -12,6 +12,10 @@
      .mtb {
          margin-bottom:0px!important;
          margin-top:0px!important;
+     }
+
+     header#pagmt h1{
+         font-size:28px;
      }
      
      .bl {

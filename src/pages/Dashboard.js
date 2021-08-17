@@ -6,7 +6,11 @@ import { Line } from 'react-chartjs-2';
 
 export const Dashboard = () => {
 
-	const [userData, setUserData] = useState({});
+	const [userData, setUserData] = useState({
+		_id:'1',
+		name:'Ulises Medrano',
+		email: 'ulises.medrano@designamx.com'
+	});
 	const [usage, setUsage] = useState([]);
 
 	const getUsage = () => {
@@ -39,8 +43,10 @@ export const Dashboard = () => {
 		})
 		.then(
 			(result) => {
-				setUserData(result.data);
-				getUsage();
+				if(result.data){
+					setUserData(result.data);
+					getUsage();
+				}
 			}
 		);
 	}, []);
