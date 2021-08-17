@@ -1,0 +1,143 @@
+#dashboard{
+    background: #F7F7FD;
+    min-height: 90vh;
+
+    h2{
+        font-size: 22px;
+        text-align:center;
+        font-weight: bold;
+    }
+    .small{
+        font-size: 14px;
+        color: #7F85A2;
+        text-align:center;
+    }
+
+    #dashboard-container{
+        margin-bottom: 100px;
+        .btn{
+            background:transparent;
+            color: inherit;
+            width:100%;
+            border: 2px solid #03004D;
+            height:42px;
+        }
+
+        .form-group{
+            margin-bottom: 0px;
+        }
+
+        input{
+            padding:20px;
+        }
+
+        .btn.w-inherit{
+            width: auto;
+        }
+
+        .btn.btn-link{
+            border:none;
+            width:auto;
+            float:right;
+            padding:0px;
+            margin:0px;
+        }
+    }
+
+    .suscription-background{
+        position: relative;
+
+        &>img{
+            position: absolute;
+            width:200px;
+            right:-100px;
+            top:-100px;
+            z-index:1;
+        }
+    }
+
+    .suscriptions{
+        background:white;
+        padding:50px;
+        margin-bottom: 100px;
+        position:relative;
+        z-index:2;
+
+        h1{
+            font-size:32px;
+            font-weight: bold;
+            margin:20px 0px;
+        }
+
+        .btn{
+            background:#FDDE69;
+            width:100%;
+            font-size:18px;
+        }
+
+        .label-active{
+            border: 1px solid #62CA76;
+            box-sizing: border-box;
+            border-radius: 7px;
+            font-weight: bold;
+            padding: 5px 20px;
+            margin-left: 20px;
+        }
+
+        p{
+            color:#7F85A2;
+            margin:0px;
+        }
+
+        p b{
+            color: black;
+        }
+
+        .title,.text{
+            display:flex;
+        }
+
+        .separator{
+            margin:0px 30px;
+            height:18px;
+            border:1px solid #7F85A2;
+        }
+    }
+
+    .input-group-append{
+        cursor:pointer;
+    }    
+}
+
+@media screen and (max-width:768px){
+    body{
+        #dashboard #dashboard-container .btn{
+            margin-top:20px;
+        }
+
+        #dashboard .suscriptions .title{
+            display:block;
+        }
+
+        #dashboard .suscriptions .text{
+            display:block;
+            margin-bottom: 50px;
+            p{
+                text-align:center;
+            }
+        }
+        
+        #dashboard .suscriptions .label-active{
+            width:auto;
+            text-align:center;
+            width: min-content;
+            padding:5px 10px;
+            margin: 0 auto 30px;
+            display:block;
+        }
+
+        #dashboard .suscriptions .text .separator{
+            display:none;
+        }
+    }
+}

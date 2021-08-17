@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 import { request } from "../services/Request";
+import '../Styles/dashboard.scss';
 
 const Styles = styled.div`
   .navbar {
@@ -136,11 +137,16 @@ export const NavigationBar = () => {
     });
   });
 
-  const logout = () => {
+  const redirectToLogin = () => {
+		delete localStorage.token;
+		window.location.href = '/';
+	}
+
+  /*const logout = () => {
     request("/api/register/logout", {}).then((result) => {
       window.location.href = "/login";
     });
-  };
+  };*/
 
   if (window.location.pathname.match(/register*/) || window.location.pathname.match(/login/) || window.location.pathname.match(/forgot/)) {
     return null;
@@ -174,6 +180,11 @@ export const NavigationBar = () => {
             {isLogin && (
               <Nav.Item>
                 <Nav.Link href="/dashboard"  className="sign-in">test@asatera.com</Nav.Link>
+              </Nav.Item>
+            )}
+            {isLogin && (
+              <Nav.Item>
+                <Nav.Link onClick={redirectToLogin}>Sign Out</Nav.Link>
               </Nav.Item>
             )}
 
