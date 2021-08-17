@@ -234,7 +234,7 @@ export const Dashboard = () => {
 										<Form.Group controlId="api_key" className="input-form-group">
 											<Form.Label className="i-label">API KEY:</Form.Label>
 											<Form.Control
-												type="text"
+												type={showKey ? "text" : 'password'}
 												name="api_key"
 												disabled={true}
 												defaultValue={userData.api_key ? userData.api_key : ''}
@@ -242,9 +242,14 @@ export const Dashboard = () => {
 										</Form.Group>
 									</Col>
 									<Col xs={12} md={4}>
-										<Button onClick={copyKey} className="w-inherit">								
-											<img src={CopyIcon}></img>
-										</Button>
+										<div className="d-flex">
+											<Button onClick={()=>{setKey(!showKey)}} className="w-inherit">								
+												<img src={Eye}></img>
+											</Button>
+											<Button onClick={copyKey} className="w-inherit ml-2">								
+												<img src={CopyIcon}></img>
+											</Button>
+										</div>
 									</Col>
 								</Row>
 							</div>
