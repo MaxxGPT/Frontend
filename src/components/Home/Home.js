@@ -5,7 +5,7 @@ import MachineLearningCard from './Card/Card';
 import HowWeUse from './HowWeUse/HowWeUse';
 import './home.css';
 
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import HeaderHeroImage from '../../assets/images/home-hero-image.png';
 import PreProcessing from '../../assets/images/home-pre-processing.png';
@@ -36,7 +36,7 @@ import Wave from '../../assets/images/Wave.png';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Hidden } from '@material-ui/core';
 const Home = () => {
-    const history = useHistory()
+    const history = useNavigate()
     return (
         <div>
             <header className="home__HeaderContainer">

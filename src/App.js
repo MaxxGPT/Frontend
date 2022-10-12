@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Developers from "./Developers";
 import Pricing from "./components/Pricing/Pricing";
@@ -27,7 +27,7 @@ class App extends Component {
             <NavigationBar />
           } */}
           <Router>
-            <Switch>
+            <Routes>
               <Route exact path="/" component={Home} />
               <Route path="/developers" component={Developers} />
               <Route path="/Pricing" component={Pricing} />
@@ -45,7 +45,7 @@ class App extends Component {
               <Route path="/sources/new" component={NewSource} />
               <Route path="/sources/update/:id" component={UpdateSource} />
               <Route component={NoMatch} />
-            </Switch>
+            </Routes>
           </Router>
         </div>
       </div>

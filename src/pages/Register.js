@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { isAuth } from "../helpers/auth";
 import axios from "axios";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Button, Form, Container, Row, Col } from "react-bootstrap";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,11 +10,11 @@ import "../Styles/register.css";
 import AsateraLogo from "../components/AsateraLogo";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 export const Register = () => {
-  const history = useHistory();
+  const history = useNavigate();
   const [userData, setUserData] = useState({
     name: "",
     email: "",
@@ -69,7 +69,7 @@ export const Register = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
-      {isAuth() ? <Redirect to="/" /> : null}
+      {isAuth() ? <Navigate to="/" /> : null}
       <ToastContainer />
       <div className="login">
         <Container className="mt-5 mb-5 login-child">

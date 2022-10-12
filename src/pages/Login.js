@@ -6,10 +6,10 @@ import "../Styles/login.scss"
 import AsateraLogo from "../components/AsateraLogo";
 import { ToastContainer, toast } from "react-toastify";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export const Login = () => {
-    const history = useHistory();
+    const history = useNavigate();
 
     const [loginData, setLoginData] = useState({});
 

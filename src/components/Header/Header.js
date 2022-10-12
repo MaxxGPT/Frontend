@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Box, ButtonBase, Typography, IconButton } from '@material-ui/core';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Logo from '../../assets/images/logo.png';
 import OvalSmall from '../../assets/images/Oval-small.png';
 import { request } from "../../services/Request";
@@ -89,7 +89,7 @@ const useStyles = makeStyles(theme => ({
 
 const Header = props => {
     const classes = useStyles();
-    const history = useHistory();
+    const history = useNavigate();
     const [isLogin, setLogin] = useState(false);
     const [open, setOpen] = React.useState(false);
 
