@@ -26,23 +26,23 @@ class App extends Component {
         <div className="content-wrap">
           <Router>
             <Routes>
-              <Route exact path="/" component={Home} />
-              <Route path="/developers" component={Developers} />
-              <Route path="/pricing" component={Pricing} />
-              <Route path="/login" component={Login} />
-              <Route path="/forgot" component={Forgot} />
-              <Route path="/privacy" component={Privacy} />
-              <Route path="/terms" component={Terms} />
-              <Route path="/register" component={Register} />
-              <Route path="/register-complete" component={RegisterComplete} />
-              <Route path="/dashboard" component={Dashboard} />
-              <Route path="/profile/subscription" component={Subscription} />
-              <Route path="/profile/password" component={ChangePassword} />
-              <Route path="/profile/user" component={ProfileUser} />
-              <Route exact path="/sources" component={SourceList} />
-              <Route path="/sources/new" component={NewSource} />
-              <Route path="/sources/update/:id" component={UpdateSource} />
-              <Route component={NoMatch} />
+              <Route path="/" element={ <Home/> } exact />
+              <Route path="/developers" element={ <Developers/> } />
+              <Route path="/pricing" element={ <Pricing/> } />
+              <Route path="/login" element={ <Login/> } />
+              <Route path="/forgot" element={ <Forgot/> } />
+              <Route path="/privacy" element={ <Privacy/> } />
+              <Route path="/terms" element={ <Terms/> } />
+              <Route path="/register" element={ <Register/> } />
+              <Route path="/register-complete" element={ <RegisterComplete/> } />
+              <Route path="/dashboard" element={ <Dashboard/> } />
+              <Route path="/profile/subscription" element={ <Subscription/> } />
+              <Route path="/profile/password" element={ <ChangePassword/> } />
+              <Route path="/profile/user" element={ <ProfileUser/> } />
+              <Route path="/sources" element={ <SourceList/> } exact />
+              <Route path="/sources/new" element={ <NewSource/> } />
+              <Route path="/sources/update/:id" element={ <UpdateSource/> } />
+              <Route element={ <NoMatch/> } />
             </Routes>
           </Router>
         </div>
