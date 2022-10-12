@@ -8,8 +8,8 @@ export default class Sidebar extends Component {
         <html lang="en">
           <head>
             <meta charset="utf-8"></meta>
-            <title>AsaTera API Reference</title>
-            <meta name="description" content="Complete reference documentation for the AsaTera API. Includes representative code snippets and examples for our Python, Java, PHP, Node.js, Go, Ruby, and .NET client libraries"></meta>
+            <title>Cannabis News API Reference</title>
+            <meta name="description" content="Complete reference documentation for the Cannabis News API. Includes representative code snippets and examples for our Python, Java, PHP, Node.js, Go, Ruby, and .NET client libraries"></meta>
           </head>
           <body id="api-reference" class="api-ref">
             <div id="sidebar">

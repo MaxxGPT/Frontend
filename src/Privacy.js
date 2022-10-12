@@ -21,11 +21,11 @@ export const Privacy = () => (
             </header>
             <br />
             <section>
-                <h3 id="welcome-to-asatera">
-                    <a class="anchor" href="#welcome-to-asatera">Welcome to AsaTera</a>
+                <h3 id="welcome-to-Cannabis News API">
+                    <a class="anchor" href="#welcome-to-Cannabis News API">Welcome to Cannabis News API</a>
                 </h3>
                 <br />
-                <p>Thank you for choosing to be part of our community at AsaTera Media (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at info@asatera.com.</p>
+                <p>Thank you for choosing to be part of our community at Cannabis News API Media (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at info@asatera.com.</p>
                 <br />
                 <p>When you visit our website <a href="https://www.asatera.com">https://www.asatera.com</a>, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Sites and our services.</p>
                 <br />
@@ -57,7 +57,7 @@ export const Privacy = () => (
                 <br />
                 <h3 id="overview"><a class="anchor" href="#overview">1. Overview</a></h3>
                 <br />
-                <p>AsaTera obtains Personal Data about you from various sources to provide our Services and to manage our Sites. “You” may be a visitor to one of our websites, a user of one or more of our Services (“User” or “AsaTera User”), or a customer of a User (“Customer”). If you are a Customer, AsaTera will generally not collect your Personal Data directly from you. Your agreement with the relevant AsaTera User should explain how the AsaTera User shares your Personal Data with AsaTera, and if you have questions about this sharing, then you should direct those questions to the AsaTera User.</p>
+                <p>Cannabis News API obtains Personal Data about you from various sources to provide our Services and to manage our Sites. “You” may be a visitor to one of our websites, a user of one or more of our Services (“User” or “Cannabis News API User”), or a customer of a User (“Customer”). If you are a Customer, Cannabis News API will generally not collect your Personal Data directly from you. Your agreement with the relevant Cannabis News API User should explain how the AsaTera User shares your Personal Data with AsaTera, and if you have questions about this sharing, then you should direct those questions to the AsaTera User.</p>
                 <br />
                 <h3 id="what-information-do-we-collect"><a class="anchor" href="#what-information-do-we-collect">1. What Information Do We Collect?</a></h3>
                 <br />
@@ -207,7 +207,7 @@ export const Privacy = () => (
                 
                 <h3 id="data-breach"><a class="anchor" href="#data-breach">10. Data Breach</a></h3>
                 <br />
-                <p>A privacy breach occurs when there is unauthorized access to or collection, use, disclosure or disposal of personal information. You will be notified about data breaches when AsaTera Media believes you are likely to be at risk or serious harm. For example, a data breach may be likely to result in serious financial harm or harm to your mental or physical well-being. In the event that AsaTera Media becomes aware of a security breach which has resulted or may result in unauthorized access, use or disclosure of personal information AsaTera Media will promptly investigate the matter and notify the applicable Supervisory Authority not later than 72 hours after having become aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons.</p>
+                <p>A privacy breach occurs when there is unauthorized access to or collection, use, disclosure or disposal of personal information. You will be notified about data breaches when Cannabis News API believes you are likely to be at risk or serious harm. For example, a data breach may be likely to result in serious financial harm or harm to your mental or physical well-being. In the event that Cannabis News API  becomes aware of a security breach which has resulted or may result in unauthorized access, use or disclosure of personal information Cannabis News API will promptly investigate the matter and notify the applicable Supervisory Authority not later than 72 hours after having become aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons.</p>
                 <br />
                 
                 

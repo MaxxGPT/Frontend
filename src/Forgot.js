@@ -57,7 +57,7 @@ export const Forgot = () => {
                                     required
                                 />
                                 <div className="input-icon">
-                                    <img alt="Asatera" src={process.env.PUBLIC_URL + 'assets/Check-Circle.png'} />
+                                    <img alt="Cannabis News API" src={process.env.PUBLIC_URL + 'assets/Check-Circle.png'} />
                                 </div>
                             </Form.Group>
 

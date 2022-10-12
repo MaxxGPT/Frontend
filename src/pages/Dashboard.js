@@ -163,7 +163,7 @@ export const Dashboard = () => {
 					<Row>
 						<Col xs={10} className="mt-3 mb-3">
 							<h2>{ userData.name } </h2>
-							<p className="small">Manage your asatera profile</p>
+							<p className="small">Manage your Cannabis News API profile</p>
 						</Col>
 					</Row>
 					<Row>

@@ -23,7 +23,7 @@ const Developers = () => (
               <br></br>
               <br></br>
               <p class="IntroSection-firstPara">
-                The AsaTera API is organized around{" "}
+                The Cannabis News API is organized around{" "}
                 <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
                   REST
                 </a>
@@ -61,7 +61,7 @@ const Developers = () => (
               <br></br>
 
               <p>
-                The AsaTera API uses API keys to authenticate requests. You can view
+                The Cannabis News API uses API keys to authenticate requests. You can view
                 and manage your API keys in the{" "}
                 <a href="http://localhost/Dashboard">User Dashboard</a>.
               </p>
@@ -103,12 +103,12 @@ const Developers = () => (
             <br></br>
             <br></br>
               <p>
-                AsaTera uses conventional HTTP response codes to indicate the
+                Cannabis News API uses conventional HTTP response codes to indicate the
                 success or failure of an API request. In general: Codes in the 2xx
                 range indicate success. Codes in the 4xx range indicate an error
                 that failed given the information provided (e.g., a required
                 parameter was omitted, etc.) Codes in the 5xx range indicate an
-                error with AsaTera’s servers (there are rare).
+                error with Cannabis News API's servers (there are rare).
               </p>
               <br></br>
               <h4>Handling Errors</h4>
@@ -139,7 +139,7 @@ const Developers = () => (
               </div>
               <br></br>
               <br></br>
-              <p>AsaTera API has 2 main endpoints:</p>
+              <p>Cannabis News API has 2 main endpoints:</p>
               <br></br>
               <p>
                 Articles. /articles – returns all articles. Information displayed
@@ -177,9 +177,9 @@ const Developers = () => (
               </div>  
               <br></br>    
               <p>
-                AsaTera has official libraries for different programming languages.
-                Use a client library to quickly and easily get started with AsaTera
-                API without worrying about the underlying setup.
+                Cannabis News API has official libraries for different programming languages.
+                Use a client library to quickly and easily get started with Cannabis News API
+                without worrying about the underlying setup.
               </p>
               <br></br>
               <p>We have libraries for the following languages:</p>

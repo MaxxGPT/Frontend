@@ -27,7 +27,7 @@ const Footer = () => {
                         <h4> Quick Links </h4>
                         <ul className="list-unstyled">
                             <li><a href="/developers">Developers</a></li>
-                            <li><a href="/prices">Prices</a></li>
+                            <li><a href="/pricing">Prices</a></li>
                             <li><a href="/Developers/#libraries">Libraries</a></li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                     </div>
                     <div className="col-sm-6">
                         <p className="f-copy">
-                            &copy;{new Date().getFullYear()} Asatera. All right reserved.
+                            &copy;{new Date().getFullYear()} Cannabis News API. All right reserved.
                         </p>
                     </div>
 

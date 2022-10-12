@@ -8,8 +8,8 @@ export default class Sidebar extends Component {
         <html lang="en">
           <head>
             <meta charset="utf-8"></meta>
-            <title>AsaTera Terms of Service</title>
-            <meta name="description" content="Complete reference documentation for the AsaTera Terms of Serivce."></meta>
+            <title>Cannabis News API Terms of Service</title>
+            <meta name="description" content="Complete reference documentation for the Cannabis News API Terms of Serivce."></meta>
           </head>
           <body id="terms-reference" class="terms-ref">
             <div id="sidebar" class="d-block d-md-none d-lg-none">

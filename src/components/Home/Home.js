@@ -78,7 +78,7 @@ const Home = () => {
                 </Hidden>
             </header>
             <section className="section__machineLearning">
-                <h1>Asatera REST API Machine Learning</h1>
+                <h1>Cannabis News REST API Machine Learning</h1>
                 <h3>We use the following ML algorithms to do the following</h3>
                 <div className="machineLearning__innerContainer">
                     <img
@@ -149,7 +149,7 @@ const Home = () => {
                         </Col>
                     </Row>
                     <h1>Developers First</h1>
-                    <p>We believe the best way to analyze news at scale is through code. We strive to provide clear and concise documentation so developers can get up and running with AsaTera in just a couple of minutes.</p>
+                    <p>We believe the best way to analyze news at scale is through code. We strive to provide clear and concise documentation so developers can get up and running with Cannabis News API in just a couple of minutes.</p>
                 </div>
                 <Container fluid>
                     <Row>
@@ -261,7 +261,7 @@ const Home = () => {
                             </h6>
                             </Hidden>
                             <p>
-                                AsaTera is always improving by adding new News sources. Our engineers constantly iterate every facet of the AsaTera stack.
+                                Cannabis News API is always improving by adding new News sources. Our engineers constantly iterate every facet of the Cannabis News API stack.
                         </p>
                             <Button
                                 bsPrefix="section__improving_readMore">
@@ -286,7 +286,7 @@ const Home = () => {
                             </h6>
                             </Hidden>
                             <p>
-                                Building with AsaTera means you will have access to metadata-enhanced cannabis news at scale that you cannot find anywhere else.
+                                Building with Cannabis News API means you will have access to metadata-enhanced cannabis news at scale that you cannot find anywhere else.
                     </p>
                             <Hidden smUp>
                                 <div style={{ flex: 1, justifyContent: 'space-between' }}>
